@@ -1,0 +1,63 @@
+
+
+.main-btn {
+	color: $heading-color;
+	font-weight: 500;
+	padding: 15px 30px;
+	font-size: $base-font-size;
+	background: linear-gradient( 1deg, rgb(0,167,213) 0%, rgb(0,222,216) 100%);
+	border: 5px solid #c8e8f5;
+	border-radius: 30px;
+	text-transform: capitalize;
+	z-index: 1;
+    cursor: pointer;
+    text-align:center;
+	transition: all 0.3s ease-out;;
+	&:hover {
+		background: linear-gradient( 1deg, rgb(0,167,213) 0%, rgb(0,222,216) 100%);
+		color: #fff;
+	}
+	&.plan-btn01{
+		color: $white;
+		font-weight: 700;
+		background: linear-gradient( -90deg, rgb(201,104,255) 0%, rgb(97,104,243) 100%);		
+		&:hover {
+			background: linear-gradient( -90deg, rgb(201,104,255) 0%, rgb(97,104,243) 100%);
+			color: #fff;
+		}
+
+	}
+	&.plan-btn02{
+		color: $white;
+		font-weight: 700;
+		background: linear-gradient( 1deg, rgb(0,167,213) 0%, rgb(0,222,216) 100%);
+		border: 5px solid #c5e8f1;
+		&:hover {
+			color: #fff;
+			background: linear-gradient( 1deg, rgb(0,167,213) 0%, rgb(0,222,216) 100%);
+		}
+
+	}
+	&.plan-btn03{
+		color: $white;
+		font-weight: 700;
+		background: linear-gradient( -90deg, rgb(246,211,101) 0%, rgb(253,160,133) 100%);
+		border: 5px solid #f5e5de;
+		&:hover {
+			color: #fff;
+			background: linear-gradient( -90deg, rgb(246,211,101) 0%, rgb(253,160,133) 100%);
+		}
+
+	}
+	&.subs-btn { 
+		background: linear-gradient( 1deg, rgb(0,167,213) 0%, rgb(0,222,216) 100%);
+		border: transparent;
+		color: #fff;
+		font-weight: 700;
+		margin-left: -150px;
+	}
+}
+
+  
+
+

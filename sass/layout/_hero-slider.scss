@@ -1,0 +1,42 @@
+.Hero {
+   display: flex;
+   align-items: center;
+  min-height: 800px;
+    .hero-content { 
+        .hero-content-left { 
+            h2 { 
+                font-size: 50px;
+                color: $heading-color;
+                letter-spacing: 4px;
+                line-height: 80px;
+                font-weight: 400;
+                margin-bottom: 30px;
+                span {
+                    color: #00c6d1;
+                }
+            }
+            p { 
+                font-size: 20px;
+                color: $body-color;
+                line-height: 32px;
+                margin-bottom: 55px;
+            }
+            button { 
+                margin-right: 20px;
+            }
+        }
+    }
+    .hero-right {
+     position: relative;
+     .hero-right-img {         
+        position: absolute;
+        top:0;
+        left: 0;
+        margin-right: -275px;
+     }
+    }
+}
+
+
+
+

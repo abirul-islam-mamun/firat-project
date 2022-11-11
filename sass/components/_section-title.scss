@@ -1,0 +1,39 @@
+.section-title {
+    text-align: center;
+    margin-bottom: 65px;
+    h2 {
+        color: $heading-color;
+        font-family: "Now";
+        font-size: 30px;
+        line-height: 27px;
+        text-transform: capitalize;
+        margin-bottom: 25px;
+        font-weight: 700;
+    }
+    p {
+        display: block;
+        line-height: 27px;
+        span {
+            display: block;
+        }
+    }
+    .subscribe-form {
+        margin-top: 25px;
+        display: inline-block;
+        input { 
+            width: 420px;
+            padding: 25px 30px;
+            border-radius: 50px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: 0px 0px 15px 0px rgba(85, 85, 85, 0.1);
+            border: transparent;
+            font-size: 16px;
+            color: #444444;
+            line-height: 27px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+
+}

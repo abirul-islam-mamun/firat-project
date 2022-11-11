@@ -1,0 +1,65 @@
+.menu { 
+    z-index: 11;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    nav { 
+        ul { 
+            display: flex;
+            justify-content: end;
+            li { 
+                margin-left: 35px;
+                padding: 60px 0;
+                a { 
+                    color: $body-color;
+                    font-size: $base-font-size;
+                    transition: .3s;
+                    font-weight: 600;
+                }
+                &:hover { 
+                    a {
+                        color: #00c6d1;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        .checkbtn { 
+            font-size: $base-font-size;
+            color: $body-color;
+            line-height: 16px;
+            float: right;
+            margin-left: 10px;
+            cursor: pointer;
+            display: none;
+        }
+        #check { 
+            display: none;
+        }
+    }
+    .menu-right {
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        .menu-icon {
+            a { 
+                font-size: 20px;
+                padding: 0 12px;
+                color: $body-color;
+                font-weight: 400;
+            }
+        }
+        a.menu-btn { 
+            margin-left: 15px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
