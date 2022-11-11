@@ -282,6 +282,10 @@ img {
   margin-right: -275px;
 }
 
+body {
+  background: red;
+}
+
 .service .single-service {
   padding: 50px 40px;
   border-radius: 10px;
