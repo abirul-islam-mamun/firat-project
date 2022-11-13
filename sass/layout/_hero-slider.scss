@@ -25,6 +25,56 @@
                 margin-right: 20px;
             }
         }
+        // for index-02 page start //
+        h2 { 
+            font-size: 50px;
+            line-height: 80px;
+            font-weight: 600;
+            color: $heading-color;
+            margin-bottom: 5px;
+            span {
+                color: #00c6d1;
+            }
+
+        }
+        p {
+            font-size: 20px;
+            line-height: 32px;
+            color: #444444;
+            margin-bottom: 60px;
+        }
+        .hero-form {
+            .form-control {
+                padding: 25px;
+                border-top-left-radius: 45px;
+                border-bottom-left-radius: 45px;
+                width: 170px;
+                font-size: 16px;
+                color: #666;
+                border: 1px solid #6cf5fd;
+                background: #fff;
+                display: inline;
+                border-end-end-radius: 0px;
+                border-top-right-radius: 0px;
+                &:focus {
+                    box-shadow: none;
+                }       
+            }
+            input {
+                padding: 25px;
+                border-top-right-radius: 45px;
+                border-bottom-right-radius: 45px;
+                width: 610px;
+                font-size: 16px;
+                color: #666;
+                border: 1px solid #6cf5fd;
+                background: #fff;
+                margin-left: -5px;
+                &:focus {
+                    outline: 0px;
+                }
+            }
+        }
     }
     .hero-right {
      position: relative;

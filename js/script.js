@@ -1,4 +1,11 @@
 (function ($) {
+// mobile menu 
+$(".mobile-btn").click(function(){
+    $(".responsive-menu").toggleClass("active");
+  });
+
+
+
     // slider active
   if ($(".new-product-active").length) {
     $(".new-product-active").owlCarousel({

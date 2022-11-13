@@ -2,7 +2,71 @@
 .footer-area {
     background: #f9fbfb;
 }
+.footer-content {
+    .footer-title {
+        h4 {
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 27px;
+            color: $heading-color;
+        }
+        margin-bottom: 30px;}
+    .footer-widget {
+        p {
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        .footer-social {
+            display: flex;
+            li {
+                margin-right: 30px;
+                &:last-child{
+                    margin: 0;
+                }
+                a {
+                    color: #00c6d1;
+                    font-size: 16px;
+                    line-height: 27px;
+                }
+            }
+        }
+    }
+}
 
+.footer-widget {
+    .footer-menu {
+        li {
+            a { 
+                font-size: 16px;
+                line-height: 35px;
+                color: #444;
+            }
+        }
+    }
+    
+    .sold-details {
+        display: flex;
+        li { 
+            margin-right: 25px;
+            &:last-child {
+                margin-right: 0px;
+            }
+        .item-name {
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 27px;
+            display: block;
+        }
+        .item-sold {
+            color: #03a4ad;
+            font-size: 25px;
+            line-height: 27px;
+            font-weight: 600;
+            display: block;
+        }
+        }
+    }
+}
 
 
 

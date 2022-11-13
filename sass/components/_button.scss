@@ -56,6 +56,21 @@
 		font-weight: 700;
 		margin-left: -150px;
 	}
+	&.search-btn { 
+		background: linear-gradient( 1deg, rgb(0,167,213) 0%, rgb(0,222,216) 100%);
+		border: transparent;
+		color: #fff;
+		font-weight: 800;
+		font-size: 16px;
+		line-height: 32px;
+		margin-left: -150px;
+		padding: 26px 42px;
+		border-top-left-radius: 0px;
+		border-bottom-left-radius: 0px;
+		border-top-right-radius: 45px;
+		border-bottom-right-radius: 45px;
+
+	}
 }
 
   

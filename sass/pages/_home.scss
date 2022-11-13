@@ -1,9 +1,6 @@
 
 // service section start '
 
-body{
-    background: red;
-}
 .service { 
     .single-service {
         padding: 50px 40px;
@@ -61,6 +58,17 @@ body{
                     color: $heading-color;
                 }
             }
+        } .single-product-02 {
+            border-radius: 0px;
+            padding: 10px;
+            .new-product-img {
+                border-radius: 0px;
+                height: unset;
+                margin-bottom: 15px;
+            }
+            .new-product-content {
+            }
+
         }
     }
     .new-product-active {
@@ -189,7 +197,7 @@ body{
 
 // exclusive product area end 
 
-// counter area start 
+// counter area start  (index-01)
 .counter { 
     background: #f9fbfb;
     .single-count {
@@ -218,6 +226,48 @@ body{
     }
 }
 // counter area start end
+.customer-satisfiction {
+    display: flex;
+    background: #ffff;
+    box-shadow: 0px 0px 15px 0px rgba(85, 85, 85, 0.1);
+    li {
+        display: flex;
+        text-align: center;
+        padding: 55px 50px;
+        &:first-child {
+            background: #fbfbfb;
+        }
+        .satisfiction-img {
+            margin-right: 18px;
+        }
+        .satisfiction-content {
+            p { line-height: 32px;}
+            h4 {
+                font-size: 22px;
+                line-height: 32px;
+                font-weight: 600;
+                color: rgb(0, 198, 209);
+                text-transform: capitalize;
+            }
+            h3 { 
+                font-size: 30px;
+                font-weight: 700;
+                color: rgb(0, 198, 209);
+                line-height: 32px;
+                margin-bottom: 15px;
+                display: block;
+            }
+            
+        .odometer-formatting-mark{
+            display: none;
+        }
+        }
+    }
+
+}
+// hero counter section start (idex-02)
+
+// hero counter section end (idex-02)
 
 // Opinion area start 
 
