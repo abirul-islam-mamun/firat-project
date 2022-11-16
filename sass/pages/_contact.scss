@@ -1,0 +1,110 @@
+
+
+
+// mail section start 
+
+.single-mail {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 0px rgba(85, 85, 85, 0.1);
+    padding: 55px;
+    border-radius: 10px;
+    h3 {
+        margin-bottom: 25px;
+        font-size: 26px;
+        line-height: 27px;
+        color: $heading-color;
+        font-weight: 600;
+    }
+}
+.mail-details {
+    display: flex;
+    align-items: center;
+    .mail-icon {
+        height: 75px;
+        width: 75px;
+        border-radius: 50%;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-right: 20px;
+    }
+    .mail-content {
+        p {
+            font-size: 18px;
+            line-height: 27px;
+            color: #666;
+            font-weight: 600;
+        }
+    }
+}
+
+// mail section end 
+
+
+
+// form and map start 
+
+
+.form-wrapper {
+    padding: 50px 70px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 0px rgba(85, 85, 85, 0.1);
+    h3 {
+        font-size: 30px;
+        line-height: 27px;
+        color: $heading-color;
+        margin-bottom: 60px;
+        text-align: center;
+        font-weight: 600;
+    }
+}
+.single-form {
+    text-align: center;
+    input {
+        width: 100%;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        border: transparent;
+        border-bottom: 1px solid #eeee;
+        &:focus {
+            outline: none;
+        }
+    }
+    .f-name {
+        width: 47%;
+        margin-right: 10px;
+    }
+    .l-name {
+        width: 47%;
+        margin-left: 10px;
+    }
+    .msg-box {
+        padding-bottom: 85px;
+    }
+    a {
+        display: inline-block;
+        text-align: center;
+    }
+}
+.map-wrapper {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px 0px rgba(85, 85, 85, 0.1);
+    height: 655px;
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+// form and map end 
+
+
+
+
+
+
+
+
+

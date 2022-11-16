@@ -73,11 +73,60 @@ if ($(".odometer").length) {
 if ($(".opinion-active").length) {
     $(".opinion-active").owlCarousel({
         autoplay: false,
-        // smartSpeed: 300,
+        smartSpeed: 300,
         margin: 20,
         loop: true,
         fade:true,
-        // autoplayHoverPause: true,
+        autoplayHoverPause: true,
+        dots: false,
+        nav: false,
+        center: true,
+        navText: false,
+        responsive: {
+            0: {
+                items: 1,
+                dots: true,
+                nav: false
+            },
+
+            500: {
+                items: 1,
+                dots: true,
+                nav: false
+            },
+
+            768: {
+                items: 2,
+                dots: true,
+            },
+            992: {
+                items: 3,
+            },
+
+            1200: {
+                items: 3
+            },
+
+           
+
+        }
+    });
+}
+// opinion active end 
+
+
+
+// // ------------------
+//      team active 
+// ----------------
+if ($(".team-active").length) {
+    $(".team-active").owlCarousel({
+        autoplay: false,
+        smartSpeed: 300,
+        margin: 30,
+        loop: true,
+        fade:true,
+        autoplayHoverPause: true,
         navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
         dots: false,
         nav: true,
@@ -106,19 +155,16 @@ if ($(".opinion-active").length) {
                 center: false,
             },
             1200: {
-                items: 6,
+                items: 4,
             },
 
             1400: {
-                items: 6,
+                items: 4,
             },
 
         }
     });
 }
-
-
-
 
 
 

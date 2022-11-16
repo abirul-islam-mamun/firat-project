@@ -2,15 +2,14 @@
     z-index: 11;
     position: absolute;
     left: 0;
-    top: 0;
-    width: 100%;
+    right: 0;
     .mobile-menu { 
         ul { 
             display: flex;
             justify-content: end;
             li { 
                 margin-left: 35px;
-                padding: 60px 0;
+                padding: 45px 0;
                 position: relative;
                 a { 
                     color: $body-color;
@@ -135,6 +134,14 @@
     }
 }
 
+
+// for index03 
+.show-menu { 
+    z-index: 11;
+    position: relative;
+    left: 0;
+    right: 0;
+}
 
 
 

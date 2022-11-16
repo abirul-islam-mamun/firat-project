@@ -35,7 +35,9 @@
             span {
                 color: #00c6d1;
             }
-
+        }
+        .color-white {
+            color: #fff;
         }
         p {
             font-size: 20px;
@@ -44,6 +46,8 @@
             margin-bottom: 60px;
         }
         .hero-form {
+            display: flex;
+            justify-content: center;
             .form-control {
                 padding: 25px;
                 border-top-left-radius: 45px;
@@ -86,6 +90,40 @@
      }
     }
 }
+
+// for index-03 start 
+
+.Hero {
+    .hero-page03 {
+        h2 { 
+            color: $white
+        }
+        p {
+            color: #cfcfcf;
+        }
+    }
+}
+
+// for about page 
+.about-hero {
+    display: flex;
+    align-items: center;
+    min-height: 335px; 
+    .hero-page03{
+        h2 {
+            font-size: 40px;
+            color: $heading-color;
+            font-weight: 600;
+           }
+           p {
+            color: #666666;
+            font-size: 16px;
+           }        
+    } 
+}
+
+
+
 
 
 
